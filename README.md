@@ -85,17 +85,10 @@ Example:
 
 ## Building
 
-To build your Node-based module API
+To build the source
 
+    npm run build
     npm run build:node
-
-To build your client UMD module
-
-    npm run build:client
-
-To build both the Node and client API at the same time
-
-    bpm run build
 
 To clean all generated folders
 
