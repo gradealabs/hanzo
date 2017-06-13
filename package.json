@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Hanzo is a .css/.scss/.sass bundler.",
   "private": true,
-  "bin":{
+  "bin": {
     "hanzo": "./lib/cli.js"
   },
   "main": "./lib/index.js",
