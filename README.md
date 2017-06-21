@@ -4,7 +4,7 @@ Hanzo is a .css/.scss/.sass bundler.
 
 ## Quick Start
 
-    npm install gradealabs/hanzo -S
+    npm install @gradealabs/hanzo -S
 
 To use the API:
 
