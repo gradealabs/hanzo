@@ -1,6 +1,6 @@
 {
   "name": "@gradealabs/hanzo",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Hanzo is a .css/.scss/.sass bundler.",
   "bin": {
     "hanzo": "./lib/cli.js"
@@ -14,7 +14,7 @@
     "build:node": "tsc -p tsconfig.node.json",
     "clean": "widowmaker lib coverage"
   },
-  "keywords": [],
+  "keywords": ["bundle", "css", "sass", "scss"],
   "author": "Darren Schnare <dschnare@gradealabs.com>",
   "repository": {
     "type": "git",
