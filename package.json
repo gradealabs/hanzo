@@ -1,6 +1,6 @@
 {
   "name": "@gradealabs/hanzo",
-  "version": "2.0.32",
+  "version": "2.0.33",
   "description": "Hanzo is a .css/.scss/.sass bundler.",
   "bin": {
     "hanzo": "./lib/cli.js"
@@ -55,7 +55,7 @@
   "dependencies": {
     "@gradealabs/fs-utils": "github:gradealabs/fs-utils#2.2.51",
     "clean-css": "4.1.3",
-    "node-sass": "4.5.3"
+    "node-sass": "4.11.0"
   },
   "engines": {
     "node": ">=6.x",
