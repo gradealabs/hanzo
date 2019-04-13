@@ -49,11 +49,11 @@ if (require.main === module) {
     yargs.showHelp()
   } else {
     const start = new Date().getTime()
-    hanzo(argv._, argv.outfile, {
-      sourceMaps: argv.sourcemaps,
-      minify: argv.minify,
-      verbose: argv.verbose,
-      includePaths: argv.includepaths
+    hanzo(argv._, argv.outfile as string, {
+      sourceMaps: !!argv.sourcemaps,
+      minify: !!argv.minify,
+      verbose: !!argv.verbose,
+      includePaths: argv.includepaths as string[]
     })
     .then(() => new Date().getTime() - start)
     .then(elapsed => {

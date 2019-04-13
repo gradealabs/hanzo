@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import * as path from 'path'
 import * as sass from 'node-sass'
 import * as CleanCss from 'clean-css'
-import { mkdir } from '@gradealabs/fs-utils'
+import { mkdir } from '@launchfort/fs-utils'
 
 interface TranspileResult {
   map?: string

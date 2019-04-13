@@ -4,11 +4,11 @@ Hanzo is a .css/.scss/.sass bundler.
 
 ## Quick Start
 
-    npm install @gradealabs/hanzo -S
+    npm install @launchfort/hanzo -S
 
 To use the API:
 
-    import hanzo from '@gradealabs/hanzo'
+    import hanzo from '@launchfort/hanzo'
 
     hanzo(
       [ 'sass/styles.scss', 'css/other.css' ],
@@ -70,7 +70,7 @@ Supported options:
 
 Example:
 
-    import hanzo from '@gradealabs/hanzo'
+    import hanzo from '@launchfort/hanzo'
 
     hanzo(
       [ 'sass/styles.scss', 'css/other.css' ],
