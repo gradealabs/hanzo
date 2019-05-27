@@ -1,6 +1,6 @@
 {
   "name": "@launchfort/hanzo",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Hanzo is a .css/.scss/.sass bundler.",
   "bin": {
     "hanzo": "./lib/cli.js"
@@ -54,13 +54,13 @@
     "sinon": "7.3.1",
     "source-map-support": "0.5.12",
     "ts-node": "8.0.3",
-    "typescript": "3.4.3",
-    "yargs": "13.2.2"
+    "typescript": "3.4.5"
   },
   "dependencies": {
     "@launchfort/fs-utils": "2.2.6",
     "clean-css": "4.2.1",
-    "node-sass": "4.11.0"
+    "node-sass": "4.11.0",
+    "yargs": "13.2.2"
   },
   "engines": {
     "node": ">=6.x",
