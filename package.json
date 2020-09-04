@@ -59,7 +59,7 @@
   "dependencies": {
     "@launchfort/fs-utils": "2.2.6",
     "clean-css": "4.2.1",
-    "node-sass": "4.11.0",
+    "node-sass": "4.13.1",
     "yargs": "13.2.2"
   },
   "engines": {
